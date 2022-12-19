@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pedicaretests">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PEDICARETESTS">
+        <activity
+            android:name=".MainDef_V2"
+            android:exported="false" />
+        <activity
+            android:name=".MainDef2"
+            android:exported="false" />
+        <activity
+            android:name=".Lodingdef"
+            android:exported="false" />
+        <activity
+            android:name=".MainDef"
+            android:exported="false" />
+        <activity
+            android:name=".hmm3"
+            android:exported="false" />
+        <activity
+            android:name=".hmm2"
+            android:exported="false" />
+        <activity
+            android:name=".hmm"
+            android:exported="false" />
+        <activity
+            android:name=".acls2i"
+            android:exported="false" />
+        <activity
+            android:name=".acls1i"
+            android:exported="false" />
+        <activity
+            android:name=".blsi"
+            android:exported="false" />
+        <activity
+            android:name=".MainInstructions"
+            android:exported="false" />
+        <activity
+            android:name=".acls5"
+            android:exported="false" />
+        <activity
+            android:name=".phtls1"
+            android:exported="false" />
+        <activity
+            android:name=".acls4"
+            android:exported="false" />
+        <activity
+            android:name=".pals3"
+            android:exported="false" />
+        <activity
+            android:name=".Hovsim2"
+            android:exported="false" />
+        <activity
+            android:name=".acls3"
+            android:exported="false" />
+        <activity
+            android:name=".skip44"
+            android:exported="false" />
+        <activity
+            android:name=".pals2"
+            android:exported="false" />
+        <activity
+            android:name=".Hovsim1"
+            android:exported="false" />
+        <activity
+            android:name=".pals1"
+            android:exported="false" />
+        <activity
+            android:name=".pears1"
+            android:exported="false" />
+        <activity
+            android:name=".acls2"
+            android:exported="false" />
+        <activity
+            android:name=".bls1"
+            android:exported="false" />
+        <activity
+            android:name=".acls1"
+            android:exported="false" />
+        <activity
+            android:name=".MAINMANU"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
